@@ -48,7 +48,7 @@ Artículos útiles para profundizar en este tema incluyen:
 
 En un DBMS orientado a filas, los datos se almacenan de esta manera:
 
-| Fila | WatchID      | JavaEnable | Título             | GoodEvent | EventTime              |
+| Row | WatchID      | JavaEnable | Title             | GoodEvent | EventTime              |
 |------|--------------|------------|--------------------|-----------|------------------------|
 | #0   | 89354350662  | 1          | Relaciones con Inversores | 1 | 2016-05-18 05:19:20  |
 | #1   | 90329509958  | 0          | Contáctanos       | 1 | 2016-05-18 08:10:20  |
@@ -61,11 +61,11 @@ Ejemplos de un DBMS orientado a filas son MySQL, Postgres y MS SQL Server.
 
 En un DBMS orientado a columnas, los datos se almacenan de esta manera:
 
-| Fila:       | #0          | #1          | #2          | #N |
+| Row:       | #0          | #1          | #2          | #N |
 |-------------|-------------|-------------|-------------|-----|
 | WatchID:    | 89354350662 | 90329509958 | 89953706054 | …   |
 | JavaEnable: | 1           | 0           | 1           | …   |
-| Título:     | Relaciones con Inversores  | Contáctanos | Misión     | …   |
+| Title:     | Relaciones con Inversores  | Contáctanos | Misión     | …   |
 | GoodEvent:  | 1           | 1           | 1           | …   |
 | EventTime:  | 2016-05-18 05:19:20 | 2016-05-18 08:10:20 | 2016-05-18 07:38:00 | …   |
 
